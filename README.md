@@ -25,8 +25,15 @@ Before you begin, ensure you have the following installed:
   - `PyMuPDF` (fitz)
   - `opencv-python`
   - `re`
+## Remember
+- The quality and of the text extrated depends on the scanned images. 
+- The accuracy of the extracted text increased for good and clear scanned images.
+- Problem may arise if the images are not clear.
 
 To install the required libraries, run the following command:
 
 ```bash
 pip install pytesseract Pillow PyMuPDF opencv-python
+
+
+
